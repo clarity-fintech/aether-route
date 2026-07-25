@@ -1,0 +1,177 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Aether Route · CallDispatch
+// Suite: Cross-Chain Bridges & Interoperability
+
+module AetherRouteCallDispatch {
+
+  embed gates 3..=6 {
+    context: "CallDispatch pack — aether_route cross-chain on CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_call_dispatch_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant call_dispatch_081: call_dispatch_081_bound == true;
+  invariant call_dispatch_082: call_dispatch_082_bound == true;
+  invariant call_dispatch_083: call_dispatch_083_bound == true;
+  invariant call_dispatch_084: call_dispatch_084_bound == true;
+  invariant call_dispatch_085: call_dispatch_085_bound == true;
+  invariant call_dispatch_086: call_dispatch_086_bound == true;
+  invariant call_dispatch_087: call_dispatch_087_bound == true;
+  invariant call_dispatch_088: call_dispatch_088_bound == true;
+  invariant call_dispatch_089: call_dispatch_089_bound == true;
+  invariant call_dispatch_090: call_dispatch_090_bound == true;
+  invariant call_dispatch_091: call_dispatch_091_bound == true;
+  invariant call_dispatch_092: call_dispatch_092_bound == true;
+  invariant call_dispatch_093: call_dispatch_093_bound == true;
+  invariant call_dispatch_094: call_dispatch_094_bound == true;
+  invariant call_dispatch_095: call_dispatch_095_bound == true;
+  invariant call_dispatch_096: call_dispatch_096_bound == true;
+  invariant call_dispatch_097: call_dispatch_097_bound == true;
+  invariant call_dispatch_098: call_dispatch_098_bound == true;
+  invariant call_dispatch_099: call_dispatch_099_bound == true;
+  invariant call_dispatch_100: call_dispatch_100_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_081(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_081_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_082(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_082_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_083(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_083_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_084(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_084_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_085(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_085_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_086(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_086_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_087(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_087_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_088(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_088_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_089(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_089_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_090(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_090_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_091(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_091_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_092(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_092_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_093(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_093_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_094(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_094_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_095(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_095_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_096(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_096_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_097(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_097_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_098(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_098_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_099(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_099_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_call_dispatch_100(payload: Bytes) {
+    require payload != @0;
+    constraint call_dispatch_100_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

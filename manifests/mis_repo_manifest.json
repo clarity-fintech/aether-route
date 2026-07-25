@@ -1,0 +1,253 @@
+{
+  "schema": "clrty.mis_repo/v1",
+  "suite": "cross_chain_bridges_interoperability",
+  "creator": "Chandler William Ferguson",
+  "org": "clarity-fintech",
+  "repo": "aether-route",
+  "title": "Aether Route",
+  "domain": "aether_route",
+  "deep_root": {
+    "language": "moniversive",
+    "dialect": "mis-ml",
+    "extension": ".mis",
+    "language_root": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json",
+    "settlement_network": "clrty-1",
+    "settlement_chain_id": 1202,
+    "embed_gates": "3..=6",
+    "letter_hash": "sha256-rolling-typed-letter/v1",
+    "compiler": "bin/misc"
+  },
+  "kernel": "mis/kernel/AetherRouteKernel.mis",
+  "packs": [
+    {
+      "name": "QuantumSafeMsg",
+      "slug": "quantum_safe_msg",
+      "band": "1..=20",
+      "module": "mis/packs/quantum_safe_msg.mis",
+      "ids": [
+        "quantum_safe_msg_001",
+        "quantum_safe_msg_002",
+        "quantum_safe_msg_003",
+        "quantum_safe_msg_004",
+        "quantum_safe_msg_005",
+        "quantum_safe_msg_006",
+        "quantum_safe_msg_007",
+        "quantum_safe_msg_008",
+        "quantum_safe_msg_009",
+        "quantum_safe_msg_010",
+        "quantum_safe_msg_011",
+        "quantum_safe_msg_012",
+        "quantum_safe_msg_013",
+        "quantum_safe_msg_014",
+        "quantum_safe_msg_015",
+        "quantum_safe_msg_016",
+        "quantum_safe_msg_017",
+        "quantum_safe_msg_018",
+        "quantum_safe_msg_019",
+        "quantum_safe_msg_020"
+      ]
+    },
+    {
+      "name": "MevShield",
+      "slug": "mev_shield",
+      "band": "21..=40",
+      "module": "mis/packs/mev_shield.mis",
+      "ids": [
+        "mev_shield_021",
+        "mev_shield_022",
+        "mev_shield_023",
+        "mev_shield_024",
+        "mev_shield_025",
+        "mev_shield_026",
+        "mev_shield_027",
+        "mev_shield_028",
+        "mev_shield_029",
+        "mev_shield_030",
+        "mev_shield_031",
+        "mev_shield_032",
+        "mev_shield_033",
+        "mev_shield_034",
+        "mev_shield_035",
+        "mev_shield_036",
+        "mev_shield_037",
+        "mev_shield_038",
+        "mev_shield_039",
+        "mev_shield_040"
+      ]
+    },
+    {
+      "name": "WorkerKvRoute",
+      "slug": "worker_kv_route",
+      "band": "41..=60",
+      "module": "mis/packs/worker_kv_route.mis",
+      "ids": [
+        "worker_kv_route_041",
+        "worker_kv_route_042",
+        "worker_kv_route_043",
+        "worker_kv_route_044",
+        "worker_kv_route_045",
+        "worker_kv_route_046",
+        "worker_kv_route_047",
+        "worker_kv_route_048",
+        "worker_kv_route_049",
+        "worker_kv_route_050",
+        "worker_kv_route_051",
+        "worker_kv_route_052",
+        "worker_kv_route_053",
+        "worker_kv_route_054",
+        "worker_kv_route_055",
+        "worker_kv_route_056",
+        "worker_kv_route_057",
+        "worker_kv_route_058",
+        "worker_kv_route_059",
+        "worker_kv_route_060"
+      ]
+    },
+    {
+      "name": "SubMsUpdate",
+      "slug": "sub_ms_update",
+      "band": "61..=80",
+      "module": "mis/packs/sub_ms_update.mis",
+      "ids": [
+        "sub_ms_update_061",
+        "sub_ms_update_062",
+        "sub_ms_update_063",
+        "sub_ms_update_064",
+        "sub_ms_update_065",
+        "sub_ms_update_066",
+        "sub_ms_update_067",
+        "sub_ms_update_068",
+        "sub_ms_update_069",
+        "sub_ms_update_070",
+        "sub_ms_update_071",
+        "sub_ms_update_072",
+        "sub_ms_update_073",
+        "sub_ms_update_074",
+        "sub_ms_update_075",
+        "sub_ms_update_076",
+        "sub_ms_update_077",
+        "sub_ms_update_078",
+        "sub_ms_update_079",
+        "sub_ms_update_080"
+      ]
+    },
+    {
+      "name": "CallDispatch",
+      "slug": "call_dispatch",
+      "band": "81..=100",
+      "module": "mis/packs/call_dispatch.mis",
+      "ids": [
+        "call_dispatch_081",
+        "call_dispatch_082",
+        "call_dispatch_083",
+        "call_dispatch_084",
+        "call_dispatch_085",
+        "call_dispatch_086",
+        "call_dispatch_087",
+        "call_dispatch_088",
+        "call_dispatch_089",
+        "call_dispatch_090",
+        "call_dispatch_091",
+        "call_dispatch_092",
+        "call_dispatch_093",
+        "call_dispatch_094",
+        "call_dispatch_095",
+        "call_dispatch_096",
+        "call_dispatch_097",
+        "call_dispatch_098",
+        "call_dispatch_099",
+        "call_dispatch_100"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "LanguageRoot",
+      "path": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json"
+    },
+    {
+      "name": "MisCodeIndex",
+      "path": "CLRTY_SUBSTRATE/boot/mis_code_index.json"
+    },
+    {
+      "name": "MisEcosystemRepos",
+      "path": "CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json"
+    },
+    {
+      "name": "StaticMlCatalog",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json"
+    },
+    {
+      "name": "MisNativeKernels",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_native_kernels_776_875.json"
+    },
+    {
+      "name": "MisArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_architecture_primitives_876_975.json"
+    },
+    {
+      "name": "MisChainIntake",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_chain_intake_976_1025.json"
+    },
+    {
+      "name": "GradientBand",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_gradient_invariants_201_300.json"
+    },
+    {
+      "name": "TickArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_architecture.json"
+    },
+    {
+      "name": "TickStakingGradient",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_staking_gradient_propagation.json"
+    },
+    {
+      "name": "ProtocolStructures",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_protocol_structures_100.json"
+    },
+    {
+      "name": "PaymentRails",
+      "path": "CLRTY_SUBSTRATE/boot/payment_rails_manifest.json"
+    },
+    {
+      "name": "HelixManifest",
+      "path": "CLRTY_SUBSTRATE/boot/helix_manifest.json"
+    },
+    {
+      "name": "MisKernelActiveOnly",
+      "path": "CLRTY_SUBSTRATE/boot/mis_kernel_active_only.json"
+    },
+    {
+      "name": "MisKernelSource",
+      "path": "moniversive/framework/mis_kernel.mis"
+    },
+    {
+      "name": "MisAllCodeIndex",
+      "path": "moniversive/framework/MisAllCodeIndex.mis"
+    },
+    {
+      "name": "MlKernelRepo",
+      "path": "https://github.com/clarity-fintech/moniversive_invariant_static_ML"
+    },
+    {
+      "name": "ClrtyMisKernelRepo",
+      "path": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+    },
+    {
+      "name": "CloudflareEdgeBind",
+      "path": "cloudflare/spark-pay"
+    },
+    {
+      "name": "MiscCompiler",
+      "path": "bin/misc"
+    }
+  ],
+  "clrty1": {
+    "network": "clrty-1",
+    "chain_id": 1202
+  },
+  "siblings": {
+    "static_ml": "https://github.com/clarity-fintech/moniversive_invariant_static_ML",
+    "mis_kernel": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+  }
+}
